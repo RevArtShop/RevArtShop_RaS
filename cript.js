@@ -69,3 +69,16 @@ productLinks.forEach(link => {
         window.open(targetLink, '_blank');
     });
 });
+// Thêm đoạn mã JavaScript này vào cuối file script.js
+window.addEventListener("resize", function() {
+    var logo = document.querySelector(".logo");
+    var windowWidth = window.innerWidth;
+    var maxWidth = 200; // Kích thước tối đa của logo
+
+    if (windowWidth <= maxWidth) {
+        logo.style.maxWidth = windowWidth + "px";
+    } else {
+        logo.style.maxWidth = maxWidth + "px";
+    }
+});
+

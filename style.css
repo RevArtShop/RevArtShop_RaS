@@ -51,6 +51,19 @@ body {
 
 /* Thiết lập header để có giao diện linh hoạt, các phần tử trong menu và actions cách nhau 15px */
 
+/* Thêm đoạn mã CSS này vào cuối file style.css */
+.logo {
+    max-width: 200px; /* Kích thước tối đa của logo */
+    width: 100%; /* Đảm bảo logo không vượt quá chiều rộng của phần tử cha */
+    height: auto; /* Tự động tính toán chiều cao dựa trên chiều rộng */
+    transition: max-width 0.3s; /* Hiệu ứng thu nhỏ */
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 #banner {
     padding: 0 50px;
