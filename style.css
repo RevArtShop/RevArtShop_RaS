@@ -52,9 +52,11 @@ body {
 /* Thiết lập header để có giao diện linh hoạt, các phần tử trong menu và actions cách nhau 15px */
 
 /* Thêm đoạn mã CSS này vào cuối file style.css */
+/* Thiết lập khoảng cách 60px trên và dưới */
+
 .logo {
     max-width: 200px; /* Kích thước tối đa của logo */
-    width: 100%; /* Đảm bảo logo không vượt quá chiều rộng của phần tử cha */
+    width: 100%;  /*Đảm bảo logo không vượt quá chiều rộng của phần tử cha */
     height: auto; /* Tự động tính toán chiều cao dựa trên chiều rộng */
     transition: max-width 0.3s; /* Hiệu ứng thu nhỏ */
 }
@@ -68,7 +70,7 @@ body {
 #banner {
     padding: 0 50px;
     width: 100%;
-    background-image :url("bannerS1.jpg");
+    background-image :url("banner/bannerS1.jpg");
     height: 463px;
     margin-top:40px;
     display: flex;
@@ -352,7 +354,7 @@ body {
 }
 
 #saleoff .box-right {
-    background-image:url("imrong1.jpg");
+    background-image:url("banner/imrong1.jpg");
     background-size: cover; /* Hiển thị hình ảnh với tỷ lệ phù hợp, đảm bảo nó che phủ toàn bộ phần nền */
     background-position: center; /* Căn giữa hình ảnh */
 }
