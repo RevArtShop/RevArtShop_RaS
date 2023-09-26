@@ -99,7 +99,7 @@ body {
     color:#25231ee8;
 }
 
-#banner .box-left button {
+/*#banner .box-left button {
     width: 191px;
     height: 40px;
     margin-top:41px;
@@ -116,7 +116,7 @@ body {
 
 #banner .box-left button:hover {
     background:orange;
-}
+}*/
 
 #banner .box-right {
     padding-left:200px;
@@ -440,6 +440,18 @@ body {
     margin-top: 50px; /* Điều chỉnh giá trị này để đẩy phần giới thiệu xuống thêm */
 
 }
+/* CSS cho phần lưu ý trong footer */
+#footer .box .logo p {
+    color: gray; /* Màu xám cho phần còn lại */
+    max-height: 100px; /* Đặt độ cao tối đa cho phần lưu ý */
+    overflow-y: auto; /* Cho phép cuộn nếu nội dung vượt quá độ cao tối đa */
+}
+
+/* CSS cho chữ "Lưu ý" */
+#footer .box .logo p strong {
+    color: red; /* Màu đỏ cho chữ "Lưu ý" */
+}
+
 #about {
     padding: 20px; /* Khoảng cách giữa phần giới thiệu và nội dung */
     min-height: 100px; /* Chiều cao tối thiểu ban đầu */
@@ -458,7 +470,7 @@ body {
 
 
 #footer .box .quick-menu .item{
-    margin-bottom:12px;
+    margin-bottom:15px;
 
 }
 #footer .box .quick-menu ,.item a{
@@ -473,6 +485,7 @@ body {
     display: block; /* Hiển thị dạng block để xuống dòng */
     margin-top: 10px; /* Khoảng cách từ phía trên */
 }
+
 
 
 #footer .box form input {
